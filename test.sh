@@ -1,8 +1,8 @@
 echo "Running tests..."
 echo
 
-output=$(./Hello_World.o)
-expected_output="Hello World"
+output=$(./BubbleSort.o 15 36 18 44 222 0 -1 -33 44 120 31 -12 -2)
+expected_output="-33 -12 -2 -1 0 15 18 31 36 44 44 120 222"
 
 if [ $? -eq 0 ] ; then
   echo "Pass: Program exited zero"

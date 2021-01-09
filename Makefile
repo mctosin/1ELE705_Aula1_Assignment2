@@ -1,9 +1,9 @@
-test: clean Hello_World.o
+test: clean BubbleSort.o
 	bash test.sh
 
-Hello_World.o:
-	gcc Hello_World.c -o Hello_World.o
+BubbleSort.o:
+	gcc BubbleSort.c -o BubbleSort.o
 
 clean:
-	rm -rf *.o *~ Hello_World
+	rm -rf *.o *~ BubbleSort
 	
