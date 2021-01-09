@@ -1,8 +1,12 @@
 echo "Running tests..."
 echo
 
-output=$(./BubbleSort.o 15 36 18 44 222 0 -1 -33 44 120 31 -12 -2)
-expected_output="-33 -12 -2 -1 0 15 18 31 36 44 44 120 222"
+input=$1
+#output=$(./BubbleSort.o 15 36 18 44 222 0 -1 -33 44 120 31 -12 -2)
+output=$(./BubbleSort.o $input)
+
+#expected_output="-33 -12 -2 -1 0 15 18 31 36 44 44 120 222 "
+expected_output=$2
 
 if [ $? -eq 0 ] ; then
   echo "Pass: Program exited zero"

@@ -16,14 +16,14 @@ int main(int argc, char** argv) {
 	}
 	//printf("\n");
 
-	bubblesort(a, argc-1);
+	bubblesort(a, argc - 1);
 
 	for (i = 1; i < argc; i++) {
 		printf("%d ", a[i - 1]);
 	}
-	printf("\n");
+	//printf("\n");
 
 	return 0;
-} 
+}
 
 // Crie a função aqui
