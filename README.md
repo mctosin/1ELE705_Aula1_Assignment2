@@ -32,4 +32,6 @@ No primeiro loop do programa, a função da stdlib atoi transforma cada uma das 
 
 Logo após a função bubblesort é chamada e o endereço do vetor de inteiros a e a quantidade de números armazenados em a são passados para a função como parâmetros.
 
-Finalmente o sistema imprime o vetor a recém ordenado pela função bubblesort.
+Finalmente o sistema imprime o vetor a recém ordenado pela função bubblesort e você pode verificar o resultado visualmente na janela de comando.
+
+
