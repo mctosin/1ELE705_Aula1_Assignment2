@@ -6,7 +6,7 @@
 # User-specific files
 *.rsuser
 *.suo
-*.user
+# *.user #Necessario para armazenar os command arguments nas propriedades do projeto.
 *.userosscache
 *.sln.docstates
 
